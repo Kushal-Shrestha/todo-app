@@ -1,2 +1,2 @@
 # todo-app
-ToDo List creating using HTML, vanilla CSS &amp; JS
+Simple ToDo List App Creating Using HTML, Vanilla CSS &amp; Vanilla JS
