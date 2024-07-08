@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <input type="text" id="todo" placeholder="Enter Your Task Here" />
-    <button onclick="handleTodo()">Add</button>
+    <div class="todo-input">
+        <div>
+            <input class="todo-input__field" type="text" id="todo" placeholder="Enter Your Task Here" />
+        </div>
+        <div>
+            <button class="todo-input__button" onclick="handleTodo()">Add</button>
+        </div>
+    </div>
     <script src="index.js">
     </script>
 </body>
